@@ -1,0 +1,45 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+            <div id="wrap">
+
+<div id="header">
+<h1><a href="#">Title</a></h1>
+<h2>Subheader, website description H2</h2>
+</div>
+
+<div id="menu">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About</a></li>
+<li><a href="#">Photos</a></li>
+<li><a href="#">Links</a></li>
+<li><a href="#">Forum</a></li>
+<li><a href="#">Free Stuff</a></li>
+<li><a href="#">Downloads</a></li>
+<li><a href="#">Products</a></li>
+<li><a href="#">SiteMap</a></li>
+</ul>
+</div>
+
+<div id="content">
+<div class="left"> 
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+</div>
+    </div>
+        </div>
+    </form>
+</body>
+</html>
